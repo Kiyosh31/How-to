@@ -16,3 +16,7 @@ Then you should put a name in `branch name pattern` and select options:
 - Require linear history
 
 Finally click on `Create`
+
+# Next configuration
+
+Follow up to [Github Actions](github-actions.md)
