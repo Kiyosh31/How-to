@@ -13,7 +13,12 @@ I will add some node.js code to this project only for showcase purposes
 So now everything must be setup, now when we raise a PR, we will see this
 ![GH actions building](images/GH-actions-building.png)
 
-If everything goes cool this is what you'll see
+## Success case
 
-If something failes you'll something like this
+![GH actions success PR](images/GH-actions-success-pr.png)
+
+![GH actions success PR](images/GH-actions-success.png)
+
+## Faile case
+
 ![GH actions building](images/GH-actions-failed.png)
