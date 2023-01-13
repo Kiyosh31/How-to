@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+          cache-dependency-path: GH-actios-node-project/package-lock.json
       - run: cd GH-actios-node-project
       - run: npm ci
       - run: npm run build --if-present
