@@ -12,7 +12,10 @@ Then you should put a name in `branch name pattern` and select options:
 
 - Require a pull request before merging
 - Require approvals
+  - select at least 2
 - Require status checks to pass before merging
+  - Require branches to be up to date before merging
+    - Build(16x)
 - Require linear history
 
 Finally click on `Create`
