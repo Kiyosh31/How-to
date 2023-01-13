@@ -8,4 +8,6 @@ This page will work as a index for all the documents and articles for this matte
 
 [Setup branch protection](setup-branch-protection.md)
 
+[Github Actions](github-actions.md)
+
 [VsCode](vscode.md)
