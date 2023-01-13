@@ -22,3 +22,11 @@ So now everything must be setup, now when we raise a PR, we will see this
 ## Faile case
 
 ![GH actions building](images/GH-actions-failed.png)
+
+# Creating more than 1 action
+
+For some projects you will need the `pipeline` running several things before enable merging, for this you will need to create as many files as actions you need in route `.github/workflows/`
+
+For example here I have one file to build the project `node.js.yml` and second file to run the tests `tests.yml`
+
+![GH actions yml](images/action-yml-files.png)
