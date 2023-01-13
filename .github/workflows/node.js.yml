@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "GH-actios-node-project"
+        working-directory: "GH-actions-node-project"
 
     strategy:
       matrix:
@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-          cache-dependency-path: GH-actios-node-project/package-lock.json
+          cache-dependency-path: GH-actions-node-project/package-lock.json
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
