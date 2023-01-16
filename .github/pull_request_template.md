@@ -10,5 +10,6 @@ _Add more context to describe the changes..._
 
 ### Checks
 
-- [ ] Tests are passing
-- [ ] Build is passing
+[] - Tests are passing
+
+[] - Build is passing
