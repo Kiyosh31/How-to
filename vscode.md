@@ -2,27 +2,7 @@
 
 Click on engine in the lower left corner and then in `configure user snipets`
 
-1. write `Javascript` and hit enter, a example code will appear like this
-
-   ```javascript
-   {
-     // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
-     // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-     // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-     // same ids are connected.
-     // Example:
-     // "Print to console": {
-     // 	"prefix": "log",
-     // 	"body": [
-     // 		"console.log('$1');",
-     // 		"$2"
-     // 	],
-     // 	"description": "Log output to console"
-     // }
-   }
-   ```
-
-   and then you can replace it like this
+1. write `Javascript` and hit enter, a example code will look like this
 
    ```javascript
    {
@@ -51,3 +31,47 @@ Click on engine in the lower left corner and then in `configure user snipets`
 8. [JS ES6 snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 9. [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 10. [Turbo console log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
+# Personal configuration
+
+This is my personal taste in vscode folded in `settings.json`
+
+1. `ctrl+,` to open settings
+2. search `editor ui`
+3. in `Workbench › Settings: Editor` select `json`
+4. save
+
+```json
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code'",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "prettier.singleQuote": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF"
+}
+```
+
+## Extras
+
+1. [install cascadia code font](https://www.youtube.com/watch?v=PaAT5n4fEcY&t=207s)
+2. [install cascadia code vscode](https://www.youtube.com/watch?v=_r511M0Yzq0)
