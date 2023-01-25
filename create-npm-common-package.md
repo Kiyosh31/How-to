@@ -77,3 +77,11 @@ So now we're ready with our package published and ready to use, the only thing l
 ```console
 npm install @kytickets/common
 ```
+
+# Update the package in you project
+
+So when you push a new version of your package you will want the latest changes in you target project
+
+```console
+npm update @kytickets/common
+```
