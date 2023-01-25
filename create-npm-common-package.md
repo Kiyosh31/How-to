@@ -29,7 +29,7 @@ Great! now you have a brand new organization created, now comes the funny part c
      "scripts": {
        "clean": "del ./build/*",
        "build": "npm run clean && tsc",
-       "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish && npm push"
+       "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish && git push"
      },
      "keywords": [],
      "author": "",
