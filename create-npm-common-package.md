@@ -69,3 +69,11 @@ Great! now you have a brand new organization created, now comes the funny part c
     ```console
     npm run pub
     ```
+
+# Install and use this in project
+
+So now we're ready with our package published and ready to use, the only thing left is to install it on the project
+
+```console
+npm install @kytickets/common
+```
